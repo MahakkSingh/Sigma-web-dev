@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*class selector*/
+
+        .red {
+            background-color: red;
+        }
+
+        /*id selector*/
+        #green {
+            background-color: green;
+        }
+
+        /*child selector*/
+
+        div>p {
+            color: blue;
+            background-color: pink;
+        }
+
+        /*Descandant selector*/
+        
+        div p {
+            color: blue;
+            background-color: pink;
+        }
+
+        /*universal selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*pseudo selector*/
+        a:visited{
+            color: rgb(18, 163, 18);
+        }
+
+        a:link{
+            color: rgb(81, 18, 139);
+        }
+
+        a:active{
+            background-color: rgb(12, 190, 131);
+        }
+
+        a:hover{
+            background-color: rgb(198, 172, 245);
+        }
+
+
+
+
+    
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div id="green">
+        this is green in bg
+        <p>and this is pink in bg</p>
+    </div>
+    <a href="https://www.google.com">go to google</a>
+    <div class="red">
+        this is red in bg
+    </div>
+    <a href="https://www.snapchat.com">click to visit snapchat behe</a>
+</body>
+
+</html>
