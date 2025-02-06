@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(255, 201, 210);
+            border: 2px solid rgb(240, 128, 146);
+            /* transform: rotate(0.25turn); */
+            display: flex;
+            transform: rotatez(40deg);
+            /* transform: scale(1.5); */
+            /* transform: scale3d(); */
+            /* transform: skewy(30deg); */
+
+            transform: translatex(100%) skewy(10deg) translatey(100%);
+
+
+
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid rgb(236, 48, 79);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            hey i am a box 
+        </div>
+    </div> 
+</body>
+</html>
