@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        /* .logo{ */
+            /* width: 40px;
+            height: 23px; */
+            /* background-color: blue; */
+        /* } */
+        .logo img{
+            width: 164px;
+
+
+        }
+         
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif span ;
+        }
+        .right img{
+            width: 25px;
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+        }
+        .right ul li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .right ul ui span{
+            padding: 0 9px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp8V1GNj0TMFvWaxjSmiiaJCSticAfQ5miAw&s" alt=""> </div>
+                <div class="right">
+                    <ul>
+                        <li> <span>  Products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg> </span> </li>
+                        <li> <span>  Pricing <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg> </span> </li>
+                        <li> <span>  Resources <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg> </span> </li>
+                        <li> <span>  About us <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" color="#000000" fill="none">
+    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg> </span> </li>
+                        <li> <img src="https://cdn4.vectorstock.com/i/1000x1000/81/08/language-translation-icon-black-and-white-vector-31138108.jpg" alt=""> </li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html> 
