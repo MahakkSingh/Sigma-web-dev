@@ -29,3 +29,13 @@ console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r);
 
 
  
+let o = {
+    name : "Mahak",
+    "job id" :4524,
+    "is pretty": "hell yah" 
+}
+
+console.log(o);
+
+o.salary = "100 trillion";
+console.log(o);
